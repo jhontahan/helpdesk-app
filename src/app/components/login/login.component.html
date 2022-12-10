@@ -4,7 +4,7 @@
 
         <img src="assets/img/login-image.svg" alt="Help Desk - dicas de um dev">
 
-        <mat-form-field class="full-width">
+        <mat-form-field class="full-width" appearance="fill">
           <mat-label>E-mail</mat-label>
           <input [(ngModel)]="creds.email" 
                  [formControl]="email"
@@ -14,7 +14,7 @@
                  matInput placeholder="Ex. fulano@gmail.com">
         </mat-form-field>
 
-        <mat-form-field class="full-width">
+        <mat-form-field class="full-width" appearance="fill">
             <mat-label>Senha</mat-label>
             <input [(ngModel)]="creds.senha" 
                    [formControl]="senha"
